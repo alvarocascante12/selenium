@@ -1,0 +1,2 @@
+# This file remains empty because the idea is that the libraries of this specific project are put here and those of the project 
+# in general, such as selenium, the generation of reports and others are within console tools so that they can then be shared
