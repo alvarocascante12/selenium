@@ -8,7 +8,7 @@ pushd ..\
 popd
 popd
 popd
-set BUILD_RESULTS_FOLDER=%PROJECT_ROOT%\.results
+set BUILD_RESULTS_FOLDER=%PROJECT_ROOT%\results
 set PYTHONPATH=%PYTHONPATH%
 
 if not exist %BUILD_RESULTS_FOLDER% md %BUILD_RESULTS_FOLDER% 

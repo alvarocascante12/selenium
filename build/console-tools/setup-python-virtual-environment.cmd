@@ -18,6 +18,11 @@ IF ERRORLEVEL 1 EXIT /B 1
 popd
 
 if not exist %BUILD_FOLDER_FULL_PATH%\requirements.txt call error.cmd "Missing %BUILD_FOLDER_FULL_PATH%\requirements.txt file"
+
+call subtitle.cmd Installing Project's Python Requirements...
+call %PYTHON_VENV%\python -m pip install -r %BUILD_FOLDER_FULL_PATH%\requirements.txt
+IF ERRORLEVEL 1 EXIT /B 1
+
 popd
 endlocal
 
