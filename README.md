@@ -39,7 +39,7 @@ project_root/
 ## Steps
 - move to the build folder and run the setup.cmd file
 `$ setup.cmd`
-- Now you can run the tests
+- Now you can run the tests , Before executing the test cases, create a results folder in the root of the project
 `$ test-run.cmd`
 
 There is nothing more to say, just remember to have a version of python 3.xx on your local machine and a version of node
